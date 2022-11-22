@@ -1,0 +1,7 @@
+[defaults]
+url=https://sentry.ekoios.net/
+org=sentry
+project=aog-game
+
+[auth]
+token=2c1052afd2e4465d89bfe2c580b81e55532b59e1161f4fd591090890b9f471aa

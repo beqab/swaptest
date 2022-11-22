@@ -1,0 +1,18 @@
+ <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="18.387"
+                          height="16.698"
+                          viewBox="0 0 18.387 16.698"
+                        >
+                          <path
+                            id="Icon_feather-filter"
+                            data-name="Icon feather-filter"
+                            d="M19.887,4.5H3l6.755,7.988V18.01L13.132,19.7V12.488Z"
+                            transform="translate(-2.25 -3.75)"
+                            fill="none"
+                            stroke="#fff"
+                            stroke-Linecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="1.5"
+                          />
+                        </svg>

@@ -1,0 +1,17 @@
+        <svg
+          className="mr-2"
+          xmlns="http://www.w3.org/2000/svg"
+          width="18.305"
+          height="12.37"
+          viewBox="0 0 18.305 12.37"
+        >
+          <path
+            id="Icon_material-sort"
+            data-name="Icon material-sort"
+            d="M4.5,20.87h5.935V18.891H4.5ZM4.5,9v1.978H22.3V9Zm0,6.924H16.37V13.946H4.5Z"
+            transform="translate(-4.25 -8.75)"
+            fill="#172932"
+            stroke="#fff"
+            stroke-width="0.5"
+          />
+        </svg>

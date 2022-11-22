@@ -1,0 +1,58 @@
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="72.529"
+          height="72.529"
+          viewBox="0 0 72.529 72.529"
+        >
+          <g
+            id="Icon_feather-plus"
+            data-name="Icon feather-plus"
+            transform="translate(36.765 13.846) rotate(45)"
+          >
+            <g
+              id="Group_899"
+              data-name="Group 899"
+              transform="translate(-8.643 -8.643)"
+            >
+              <g
+                id="Ellipse_787"
+                data-name="Ellipse 787"
+                transform="translate(-1.501 -0.794)"
+                fill="#fff"
+                stroke="#e34c5e"
+                stroke-width="3"
+              >
+                <circle cx="25.643" cy="25.643" r="25.643" stroke="none" />
+                <circle cx="25.643" cy="25.643" r="24.143" fill="none" />
+              </g>
+              <g
+                id="Group_898"
+                data-name="Group 898"
+                transform="translate(12.076 11.717)"
+              >
+                <path
+                  id="Path_3833"
+                  data-name="Path 3833"
+                  d="M18,7.5V32.7"
+                  transform="translate(-5.401 -7.5)"
+                  fill="none"
+                  stroke="#e34c5e"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="3"
+                />
+                <path
+                  id="Path_3834"
+                  data-name="Path 3834"
+                  d="M7.5,18H32.7"
+                  transform="translate(-7.5 -5.401)"
+                  fill="none"
+                  stroke="#e34c5e"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="3"
+                />
+              </g>
+            </g>
+          </g>
+        </svg>

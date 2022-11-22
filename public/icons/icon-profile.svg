@@ -1,0 +1,26 @@
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="15.667"
+                height="17.585"
+                viewBox="0 0 15.667 17.585"
+              >
+                <g
+                  id="Group_721"
+                  data-name="Group 721"
+                  transform="translate(-33.354 -243.776)"
+                >
+                  <path
+                    id="Vector"
+                    d="M8.361,4.186A4.181,4.181,0,1,0,4.175,8.361,4.191,4.191,0,0,0,8.361,4.186Z"
+                    transform="translate(36.735 243.776)"
+                    fill="#fff"
+                  />
+                  <path
+                    id="Vector-2"
+                    data-name="Vector"
+                    d="M4.844,0A4.849,4.849,0,0,0,0,4.844v.771A2,2,0,0,0,1.985,7.6h11.7a2,2,0,0,0,1.985-1.985v-.76A4.859,4.859,0,0,0,10.823,0Z"
+                    transform="translate(33.354 253.76)"
+                    fill="#fff"
+                  />
+                </g>
+              </svg>

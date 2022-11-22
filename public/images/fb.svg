@@ -1,0 +1,15 @@
+<svg id="Component_14_2" data-name="Component 14 – 2" xmlns="http://www.w3.org/2000/svg" width="78.503" height="78.503" viewBox="0 0 78.503 78.503">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        opacity: 0.45;
+      }
+    </style>
+  </defs>
+  <circle id="Ellipse_22" data-name="Ellipse 22" class="cls-1" cx="39.251" cy="39.251" r="39.251"/>
+  <path id="Icon_awesome-facebook-f" data-name="Icon awesome-facebook-f" class="cls-2" d="M19,19.55l.965-6.29H13.934V9.178c0-1.721.843-3.4,3.546-3.4h2.744V.425A33.46,33.46,0,0,0,15.354,0c-4.97,0-8.219,3.013-8.219,8.466V13.26H1.609v6.29H7.134V34.756h6.8V19.55Z" transform="translate(28.335 23.366)"/>
+</svg>

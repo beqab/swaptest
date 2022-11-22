@@ -1,0 +1,40 @@
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="15.48"
+                height="15.818"
+                viewBox="0 0 15.48 15.818"
+              >
+                <g id="Transfer" transform="translate(-4.128 -3.962)">
+                  <g id="Group" transform="translate(4.878 5.019)">
+                    <g id="Group-2" data-name="Group">
+                      <path
+                        id="Vector"
+                        d="M9.666,0,13.98,5.093H0"
+                        fill="none"
+                        stroke="#fff"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.5"
+                        strokeDasharray="0 0"
+                      />
+                    </g>
+                    <g
+                      id="Group-3"
+                      data-name="Group"
+                      transform="translate(0 8.611)"
+                    >
+                      <path
+                        id="Vector-2"
+                        data-name="Vector"
+                        d="M4.323,5.093,0,0H13.98"
+                        fill="none"
+                        stroke="#fff"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.5"
+                        strokeDasharray="0 0"
+                      />
+                    </g>
+                  </g>
+                </g>
+              </svg>

@@ -1,0 +1,318 @@
+.dashboard {
+  display: flex;
+  .container-fluid {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .sideBar_menu {
+    li {
+      font-weight: 500;
+      font-size: 12px;
+      display: flex;
+      align-items: flex-start;
+    }
+  }
+
+  @media only screen and (max-width: 1369px) {
+    .sideBar {
+      max-width: 175px;
+    }
+  }
+  @media only screen and (max-width: 1069px) {
+    .sideBar {
+      display: none;
+    }
+  }
+  .lineCHart {
+    &::-webkit-scrollbar {
+      width: 4px;
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+      background: #0068ef3b;
+    }
+
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
+    .chartControl {
+      display: flex;
+      // position: absolute;
+      top: 17px;
+      margin-left: 30px;
+      // margin: calc(50% - 32px);
+      // transform: translateX(-50%);
+      @media only screen and (max-width: 769px) {
+        display: flex;
+        position: absolute;
+        top: 25px;
+        left: calc(50% + 43px);
+      }
+      > div {
+        font-size: 17px;
+        cursor: pointer;
+        color: grey;
+        padding: 0 12px;
+        &.active {
+          position: relative;
+          color: #fff;
+          &:before {
+            position: absolute;
+            content: "";
+            height: 1px;
+            width: 20px;
+            background-color: $color_blue;
+            bottom: 0px;
+            left: 50%;
+            transform: translateX(-50%);
+          }
+        }
+      }
+    }
+    position: relative;
+    height: 446px;
+    overflow-x: auto;
+    overflow-y: auto;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    > div {
+      width: 100%;
+    }
+
+    @media only screen and (max-width: 769px) {
+      overflow: auto;
+      width: 80vw;
+      margin: auto;
+      margin-bottom: 20px;
+      min-width: 340px;
+      > div {
+        width: 800px;
+        canvas {
+          width: 700px !important;
+        }
+      }
+    }
+  }
+  .chartTitle {
+    font-weight: bold;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .chart1 {
+    height: 400px;
+    @media only screen and (max-width: 769px) {
+      margin-bottom: 60px;
+    }
+
+    @media only screen and (min-width: 1600px) {
+      // height: 300px !important;
+      // width: auto !important;
+      width: 100%;
+      canvas {
+        height: 380px !important;
+        width: 100% !important;
+      }
+    }
+    canvas {
+      // height: 300px !important;
+      // width: auto !important;
+      // width: 100% !important;
+    }
+  }
+  .Last-200,
+  .height440 {
+    height: 446px !important;
+  }
+
+  .influencers {
+    height: calc(100% - 175px) !important;
+    overflow: hidden;
+    @media only screen and (max-width: 769px) {
+      height: calc(100% - 5px) !important;
+    }
+  }
+
+  .usersList {
+    list-style: none;
+    padding-left: 0px;
+    overflow-y: auto;
+    overflow-x: auto;
+    padding-right: 3px;
+    max-height: 208px;
+    margin-bottom: 0px;
+    padding-right: 9px;
+    @media only screen and (max-width: 769px) {
+      max-height: 317px;
+      height: 100%;
+    }
+    &.top50 {
+      max-height: 367px;
+      height: 100%;
+    }
+
+    &::-webkit-scrollbar {
+      width: 4px;
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+      background: #0068ef3b;
+    }
+
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #ffffff21;
+      padding-bottom: 12px;
+      padding-top: 12px;
+      img {
+        width: 28px;
+        height: 28px;
+        object-fit: cover;
+        border-radius: 50px;
+      }
+    }
+  }
+
+  .bookingList {
+    padding-left: 0;
+    list-style: none;
+    li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #ffffff21;
+      padding-bottom: 12px;
+      padding-top: 12px;
+      > div {
+        width: 68px;
+      }
+    }
+  }
+
+  &_main {
+    background-color: #0b0946;
+    min-height: 100vh;
+    width: 100%;
+    .col_md-3 {
+      max-width: 240px;
+      width: 100%;
+      padding-left: 10px;
+      padding-right: 10px;
+      box-sizing: border-box;
+      box-sizing: content-box;
+      @media only screen and (max-width: 769px) {
+        max-width: 390px;
+        margin: auto;
+      }
+    }
+    .col_md-6 {
+      max-width: 100%;
+      width: calc(100% - 540px);
+
+      padding-left: 10px;
+      padding-right: 10px;
+      box-sizing: content-box;
+      @media only screen and (max-width: 769px) {
+        width: calc(100%);
+      }
+    }
+  }
+  &_card {
+    border-radius: 11px;
+    padding: 21px;
+    background-color: #001665;
+    margin-bottom: 20px;
+    min-height: 135px;
+    &_menu {
+      display: flex;
+      justify-content: center;
+      border-bottom: 1px solid #ffffff21;
+      margin-right: -20px;
+      margin-left: -20px;
+      margin-top: -10px;
+      div {
+        &:first-child {
+          margin-right: 14px;
+        }
+        cursor: pointer;
+        position: relative;
+        &.active {
+          &:before {
+            display: block;
+          }
+        }
+        &:before {
+          display: none;
+          position: absolute;
+          content: "";
+          height: 1px;
+          width: 37px;
+          bottom: -10px;
+          left: 50%;
+          transform: translateX(-50%);
+          background: #0068ef;
+        }
+      }
+    }
+    &-green {
+      background: #3acc89;
+    }
+  }
+
+  &_text {
+    font-size: 15px;
+    &-wight {
+      color: #fff;
+    }
+    &-grey {
+      color: #fff;
+      opacity: 0.45;
+    }
+    &-red {
+      color: #eb5757;
+    }
+    &-bold {
+      font-weight: bold;
+    }
+    &-bold500 {
+      font-weight: 500;
+    }
+    &-bold600 {
+      font-weight: 600;
+    }
+    &-title {
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+    &-font10 {
+      font-size: 10px;
+    }
+    &-font11 {
+      font-size: 10px;
+    }
+    &-font12 {
+      font-size: 12px;
+    }
+  }
+}
